@@ -1,7 +1,7 @@
 #This is a python test file
 
 import string
-fhand = open('file.txt')
+fhand = open('romeo-full.txt')
 counts = dict()
 for line in fhand:
     line = line.translate(None, string.punctuation)
@@ -22,3 +22,4 @@ lst.sort(reverse=True)
 
 for key,val in lst[:1]:
     print key,val
+    print 'this is a comment for git'
